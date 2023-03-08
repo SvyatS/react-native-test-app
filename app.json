@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "lab",
+    "slug": "lab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/app.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/*",
+      "assets/images/*",
+      "assets/fonts/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/app.png"
+    }
+  }
+}
